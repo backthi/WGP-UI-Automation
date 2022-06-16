@@ -1,0 +1,24 @@
+{
+  "name": "wgp-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "open": "cypress open --e2e --browser chrome specPattern: cypress/e2e/specs/*.cy.{js,jsx,ts,tsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backthi/WGP-UI-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backthi/WGP-UI-Automation/issues"
+  },
+  "homepage": "https://github.com/backthi/WGP-UI-Automation#readme",
+  "dependencies": {
+    "cypress": "^10.1.0"
+  }
+}
